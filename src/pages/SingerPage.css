@@ -1,0 +1,125 @@
+.singerPage {
+    display: flex;
+    flex-direction: column;
+    z-index: 0;
+    margin: 0;
+    min-width: 1300px;
+    flex: 1;
+}
+
+.cover-singerPage {
+    height: 260px;
+}
+
+.background-singerPage {
+    height: 320px;
+    width: 100%;
+    min-width: 1300px;
+    top: 0;
+    position: absolute;
+}
+
+.photoes-artist {
+    position: absolute;
+    top: 120px;
+    left: 150px;
+    z-index: 1;
+    display: flex;
+    flex-direction: row;
+    align-items: end;
+    color: white;
+}
+
+.photoes-artist img {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+}
+
+.btn-add {
+    position: absolute;
+    top: 120px;
+    left: 130px;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-add img {
+    height: 40px;
+    width: 40px;
+}
+
+.songCol {
+    flex: 1;
+    margin: 15px; 
+}
+
+.btn-more,.album-more {
+    height: 30px;
+    width: 100px;
+    border: none;
+    border-radius: 50%;
+    background-color: rgb(120, 120, 122);
+    color: white;
+    margin: 0px 30px 15px 0; 
+    align-self: flex-end; 
+    cursor: pointer; 
+    font-size:18px;
+}
+.album-more{
+    margin: 5px 15px 5px 0;
+}
+.songs-singerPage {
+    display: flex;
+    flex-direction: column;
+    min-width: 1300px;
+    background-color: rgb(233, 233, 233);
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 15px 24px ;
+    border-radius: 20px;
+}
+
+.albums-singerPage, .collaboration-singerPage {
+    display: flex;
+    flex-direction: column;
+    border-radius: 30px;
+    margin: 20px 30px;
+    min-width: 1300px;
+}
+
+.albums-covers, .info-singerPage {
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(233, 233, 233);
+    border-radius: 50px;
+    justify-content: space-between;
+}
+.info-singerPage {
+    margin: 20px 30px;
+}
+
+.collection-albums, .collection-collaborations {
+    display: flex;
+    flex-direction: column;
+    border-radius: 26px;
+    background-color: rgb(233, 233, 233);
+    padding: 10px; 
+}
+
+.albums-singerPage p, .collaboration-singerPage p {
+    font-size: 30px;
+    margin-left: 50px;
+    line-height: 26px;
+    font-weight:300;
+}
+.info-about-singer {
+    display: flex;
+    flex-direction: column;
+    margin: 40px 0 40px 80px;
+}
+

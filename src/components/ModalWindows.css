@@ -1,0 +1,165 @@
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+  }
+  .sm-icons{
+    display: flex;
+    justify-content: center;
+    gap:15px;  
+}
+  .sm-icons img{
+    height:80px ;
+    width: 80px;
+}
+.modal-message{
+  min-width:100px;
+  max-width:300px;
+  text-align: center;
+}
+.credits-info{
+font-weight: 300;
+display: flex;
+  flex-direction: column;
+    justify-content: left;
+    margin-top:60px;
+}
+:root {
+  --purple-color: rgb(79, 15, 255);
+}
+
+.purple-text {
+  font-size: 20px;
+  font-weight: 400;
+  color: var(--purple-color);
+}
+.credits-info label{
+  margin:5px 0px;
+  font-size: 16px;
+}
+  .line{
+    background-color: rgb(79, 15, 255);
+    border-radius: 50px;
+    height:3px ;
+    width: 520px;
+    margin:30px 0 30px 0;
+  }
+  .share-link{
+    border: 1px solid rgb(231, 228, 228);
+    font-size: 20px;
+    text-align: center;
+    color:rgb(79, 15, 255);
+   
+    border-radius: 50px;
+    padding: 10px 20px;
+  }
+  .shareModalWindow, .creditsModalWindow, .addToPlaylistModalWindow, .warningModalWindow {
+    border-radius: 55px;
+    padding: 50px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    position: relative;
+    color: black;
+    background-color: rgb(255, 255, 255);
+  }
+  .shareModalWindow p{
+    text-align: center;
+    font-size: 15px;
+    margin: 12px 10px 8px 10px;
+  }
+  .heading{
+    text-align: center;
+    font-size: 36px;
+    font-weight: 600;
+  }
+  .copy-button{
+    border: none;
+    border-radius:40px;
+    padding: 5px 15px;
+    cursor: pointer;
+    color:white;
+    background-color:rgb(79, 15, 255);
+    margin-left: 15px;
+  }
+  .copy-button:focus{
+    border: none ;
+    color:rgb(0, 0, 0);
+    background-color:rgba(214, 211, 211, 0.595);
+  }
+  .close-button {
+    background: none;
+    border: none;
+    color: black;
+    font-size: 28px;
+    cursor: pointer;
+    position: absolute;
+    top: 20px;
+    right: 40px; 
+  }
+.playlist-search{
+  width:500px;
+  height: 50px;
+  border:1px solid var(--purple-color);
+  border-radius: 10px;
+  padding-left: 10px;
+  margin:15px 0;
+}
+.playlist-search:focus{
+  outline: none;
+
+}
+.create-playlist, .save-playlist{
+background-color: var(--purple-color);
+border:none;
+border-radius: 10px;
+padding:4px 30px;
+color: rgb(255, 255, 255);
+}
+.buttons-playlist{
+margin:18px 0 0px 0;
+display: flex;
+justify-content: space-evenly;
+flex-direction: row;
+}
+.img-playlist{
+  height:150px;
+  width:150px;
+  border-radius: 20px;
+  margin: 10px auto;
+}
+.form-control {
+  transition: outline 0.3s ease, box-shadow 0.3s ease !important; 
+  outline: 5px solid transparent !important; 
+  border: 1px solid rgba(79, 15, 255, 0.527)!important;
+}
+.form-control:focus {
+  outline: 1px solid rgba(79, 15, 255, 0.37) !important; 
+  box-shadow: 0 0 5px var(--purple-color) !important; 
+}
+.add-songs-form{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap:10px;
+}
+.photo-name-playlist{
+  display: flex;
+  flex-direction: column;
+}
+.added-songs-list{
+  margin: 0 0 10px 0;
+  height: 180px; 
+  border-bottom: 1px solid gainsboro;
+  overflow-y: auto; 
+  overflow-x: hidden;
+}
+.add-songs-list{
+  height: 300px;
+  overflow-y: auto;
+}

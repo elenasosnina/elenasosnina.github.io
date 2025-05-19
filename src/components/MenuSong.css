@@ -1,0 +1,26 @@
+.menu-dropdown {
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    width: 250px;
+    text-align: left;
+    z-index: 0;
+}
+.menu-dropdown ul {
+    margin: 0; 
+    padding: 0; 
+    list-style: none;    
+}
+.menu-dropdown li {
+    padding: 15px; 
+}
+.menu-dropdown li:first-child {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.menu-dropdown li:last-child {
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.menu-dropdown li:hover {
+    background-color: rgb(244, 244, 244);
+}

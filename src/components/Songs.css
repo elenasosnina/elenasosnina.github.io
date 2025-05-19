@@ -1,0 +1,74 @@
+.card-song, .cover-title-song, .timing-menu {
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+    justify-content: space-between;
+}
+
+.card-song {
+    border-radius: 20px;
+    margin: 0 5px;
+    padding: 5px 5px 5px 5px ;
+}
+
+.menu-dropdown{
+    position: absolute; 
+    z-index: 1000; 
+    transform: translateY(12px);
+}
+.hidden-svg {
+    display: none; 
+  }
+
+.card-song:hover .hidden-svg {
+    display: block;
+  }
+
+.cover-title-song {
+    gap: 20px;
+}
+.timing-menu {
+    align-items: center; 
+    justify-content: center;
+    gap: 20px;
+}
+.title-singer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    font-size: 17px;
+}
+.title-singer p:hover:last-child {
+    text-decoration: underline;
+}
+.title-singer p, .timing-menu p {
+    margin: 0; 
+    padding: 0; 
+    height: 22px;
+}
+.cover {
+    border-radius: 10px;
+    cursor: pointer;
+    position: relative;
+}
+
+.cover-container {
+    position: relative; 
+    display: inline-block;
+}
+
+.play-pause-icon {
+    cursor: pointer; 
+    width: 25px; 
+    height: 25px; 
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.cover-container:hover .play-pause-icon {
+    opacity: 1;
+}

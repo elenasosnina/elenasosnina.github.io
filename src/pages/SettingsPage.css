@@ -1,0 +1,169 @@
+.settings-page {
+  position: relative;
+  top: 0;
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.settings-page-form {
+  min-width: 800px;
+}
+
+.settings-page-form label {
+  font-size: 20px;
+}
+
+.settings-form {
+  width: 600px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.settings-nav {
+  position: fixed;
+  top: 100px;
+  z-index: 0;
+  background-color: rgb(79, 15, 255);
+  padding: 10px;
+  min-width: 200px;
+}
+
+.settings-nav a {
+  font-size: 20px;
+}
+
+.settings-page-content {
+  background-color: rgb(79, 15, 255);
+  padding: 20px 100px;
+  width: 100%;
+  box-sizing: border-box;
+  color: white;
+  flex-grow: 1;
+}
+
+.settings-content-wrapper {
+  display: flex;
+  gap: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+  flex-direction: row-reverse;
+}
+
+#list-example {
+  width: 200px;
+}
+
+.scrollspy-example {
+  flex-grow: 1;
+}
+
+.set-profile-photo {
+  width: 170px;
+  height: 170px;
+  object-fit: cover;
+  border-radius: 100px;
+  display: block;
+  background-color: rgba(0, 0, 0, 0.702);
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin: 10px;
+}
+
+.edit-images div {
+  display: flex;
+  flex-direction: column;
+}
+
+.set-background-photo {
+  width: 600px;
+  height: 170px;
+  display: block;
+  object-fit: cover;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin: 10px;
+}
+
+.set-profile-photo:hover,
+.set-background-photo:hover {
+  opacity: 0.5;
+}
+
+.btn.btn-primary {
+  color: rgb(79, 15, 255) !important;
+  background-color: white !important;
+  border: none !important;
+  font-weight: 500 !important;
+  font-size: 18px !important;
+}
+
+.del-account {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  align-items: center;
+}
+
+.del-account p {
+  font-size: 12px;
+  color: rgba(255, 255, 255, 0.718);
+  width: 450px;
+  line-height: 15px;
+  margin: 0;
+}
+
+.secure-form {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 600px;
+  margin: 10px 0;
+}
+
+.secure-form div:nth-child(1) {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.secure-form div:nth-child(2) {
+  display: flex;
+  flex-direction: column;
+}
+
+.secure-form button {
+  height: 50px;
+  padding: 0px 30px;
+}
+
+.secure-form img {
+  height: 60px;
+  width: 60px;
+}
+
+.image-upload-wrapper {
+  position: relative;
+  display: inline-block;
+}
+
+.image-container {
+  position: relative;
+  display: inline-block;
+  /* Чтобы контейнер не занимал всю ширину */
+}
+
+.image-container:hover::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(128, 128, 128, 0.5);
+  z-index: 1;
+}
