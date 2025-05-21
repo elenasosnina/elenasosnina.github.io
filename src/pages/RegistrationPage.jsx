@@ -4,6 +4,7 @@ import { useNavigate } from "react-router-dom";
 import emailPicture from "C:/Users/user/Desktop/Diplomnaya-rabota/src/assets/email.png";
 import vkPicture from "C:/Users/user/Desktop/Diplomnaya-rabota/src/assets/icon2.png";
 import styled from "styled-components";
+import Main from "./MainPage";
 
 const Button = styled.button`
   margin: 0 16px 24px 16px;

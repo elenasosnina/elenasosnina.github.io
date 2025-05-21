@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "./Songs.css";
-import Dropdown from "./MenuSong.jsx";
+import Dropdown from "./MenuSong";
 import play from "../assets/play.png";
 import pause from "../assets/pause.png";
 import { useNavigate } from "react-router-dom";
@@ -9,7 +9,7 @@ import {
   ShareModalWindow,
   CreditsModalWindow,
   AddToPlaylistModalWindow,
-} from "./ModalWindows.jsx";
+} from "./ModalWindows";
 
 const Songs = ({
   song,

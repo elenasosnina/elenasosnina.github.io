@@ -1,6 +1,6 @@
 import React from "react";
 import "./AlbumList.css";
-import Album from "../components/Album.jsx";
+import Album from "../components/Album";
 import { useLocation } from "react-router-dom";
 
 const AlbumList = () => {

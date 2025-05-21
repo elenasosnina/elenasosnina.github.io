@@ -1,7 +1,8 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useRef, useCallback, useEffect } from "react";
 import "./PlaylistPage.css";
-import Songs from "../components/Songs.jsx";
-import Dropdown from "../components/MenuSong.jsx";
+import Songs from "../components/Songs";
+import coverPlaylist from "../assets/login.jpg";
+import Dropdown from "../components/MenuSong";
 import coverSong from "../assets/party.webp";
 import coverSong2 from "../assets/login.jpg";
 import audioCover from "../assets/Justin Bieber - All Around The World.mp3";
@@ -10,7 +11,7 @@ import { useLocation, useNavigate } from "react-router-dom";
 import {
   ShareModalWindow,
   ModalWindowInformation,
-} from "../components/ModalWindows.jsx";
+} from "../components/ModalWindows";
 
 const PlaylistPage = ({
   isPlaying,

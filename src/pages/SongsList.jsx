@@ -1,5 +1,5 @@
 import React from "react";
-import Songs from "../components/Songs.jsx";
+import Songs from "../components/Songs";
 import "./SongsList.css";
 
 const SongsList = ({

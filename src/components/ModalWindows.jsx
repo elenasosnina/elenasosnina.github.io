@@ -5,7 +5,7 @@ import vkimg from "../assets/icon2.png";
 import tgimg from "../assets/icon1.png";
 import styled from "styled-components";
 import defoultPhoto from "../assets/bibi.jpg";
-import Songs from "../components/Songs.jsx";
+import Songs from "../components/Songs";
 import coverSong from "../assets/party.webp";
 import coverSong2 from "../assets/login.jpg";
 import audioCover from "../assets/Justin Bieber - All Around The World.mp3";
