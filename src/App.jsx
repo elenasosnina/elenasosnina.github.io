@@ -6,27 +6,27 @@ import {
   useLocation,
   useNavigate,
 } from "react-router-dom";
-import Header from "./components/Header";
-import Footer from "./components/Footer";
-import Main from "./pages/IntroductionPage";
-import Login from "./pages/LoginPage";
-import Registration from "./pages/RegistrationPage";
-import MainPage from "./pages/MainPage";
-import PlaylistPage from "./pages/PlaylistPage";
-import Player from "./components/Player";
-import SongsList from "./pages/SongsList";
-import UserAccount from "./pages/UserAccountPage";
-import AlbumList from "./pages/AlbumList";
+import Header from "./components/Header.jsx";
+import Footer from "./components/Footer.jsx";
+import Main from "./pages/IntroductionPage.jsx";
+import Login from "./pages/LoginPage.jsx";
+import Registration from "./pages/RegistrationPage.jsx";
+import MainPage from "./pages/MainPage.jsx";
+import PlaylistPage from "./pages/PlaylistPage.jsx";
+import Player from "./components/Player.jsx";
+import SongsList from "./pages/SongsList.jsx";
+import UserAccount from "./pages/UserAccountPage.jsx";
+import AlbumList from "./pages/AlbumList.jsx";
 import "./App.css";
-import SingerPage from "./pages/SingerPage";
-import ManageMusic from "./components/ManageMusic";
-import AlbumSongs from "./pages/AlbumPage";
-import HelpPage from "./pages/HelpPage";
-import SettingsPage from "./pages/SettingsPage";
-import RecoveryPasswordPage from "./pages/RecoveryPasswordPage";
-import Media from "./components/Media";
+import SingerPage from "./pages/SingerPage.jsx";
+import ManageMusic from "./components/ManageMusic.jsx";
+import AlbumSongs from "./pages/AlbumPage.jsx";
+import HelpPage from "./pages/HelpPage.jsx";
+import SettingsPage from "./pages/SettingsPage.jsx";
+import RecoveryPasswordPage from "./pages/RecoveryPasswordPage.jsx";
+import Media from "./components/Media.jsx";
 import CoverImg from "./assets/bibi.jpg";
-import GenresPage from "./pages/GenresPage";
+import GenresPage from "./pages/GenresPage.jsx";
 
 const App = () => {
   const location = useLocation();

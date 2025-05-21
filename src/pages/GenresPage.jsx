@@ -3,7 +3,7 @@ import "./GenresPage.css";
 import { useLocation } from "react-router-dom";
 import coverSong from "../assets/party.webp";
 import coverSong2 from "../assets/login.jpg";
-import Songs from "../components/Songs";
+import Songs from "../components/Songs.jsx";
 import audioCover from "../assets/Justin Bieber - All Around The World.mp3";
 import audioCover2 from "../assets/Xxxtentacion_John_Cunningham_-_changes_54571393.mp3";
 

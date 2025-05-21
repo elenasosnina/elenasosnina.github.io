@@ -2,13 +2,13 @@ import React, { useState, useEffect } from "react";
 import "./UserAccountPage.css";
 import userCover from "../assets/bibi.jpg";
 import userBack from "../assets/bibi_back.jpg";
-import Artist from "../components/Media";
+import Artist from "../components/Media.jsx";
 import { useNavigate } from "react-router-dom";
-import Songs from "../components/Songs";
+import Songs from "../components/Songs.jsx";
 import coverSong from "../assets/party.webp";
 import audioCover from "../assets/Justin Bieber - All Around The World.mp3";
-import Album from "../components/Album";
-import { AddToPlaylistModalWindow } from "../components/ModalWindows";
+import Album from "../components/Album.jsx";
+import { AddToPlaylistModalWindow } from "../components/ModalWindows.jsx";
 
 const UserAccountPage = ({
   isPlaying,

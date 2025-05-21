@@ -8,7 +8,7 @@ import {
   ModalWindowInformation,
   ChangeLoginModal,
   ChangePasswordModal,
-} from "../components/ModalWindows";
+} from "../components/ModalWindows.jsx";
 
 const SettingsPage = () => {
   const [profilePicture, setProfilePicture] = useState(userCover);

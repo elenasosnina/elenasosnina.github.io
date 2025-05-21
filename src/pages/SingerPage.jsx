@@ -6,10 +6,10 @@ import coverSong from "../assets/party.webp";
 import coverSong2 from "../assets/login.jpg";
 import Bheart from "../assets/Bheart.png";
 import Wheart from "../assets/Wheart.png";
-import Songs from "../components/Songs";
+import Songs from "../components/Songs.jsx";
 import audioCover from "../assets/Justin Bieber - All Around The World.mp3";
 import audioCover2 from "../assets/Xxxtentacion_John_Cunningham_-_changes_54571393.mp3";
-import Media from "../components/Media";
+import Media from "../components/Media.jsx";
 import { useNavigate, useParams, useLocation } from "react-router-dom";
 
 const SingerPage = ({

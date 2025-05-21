@@ -1,6 +1,6 @@
 import { React, useState } from "react";
 import "./RecoveryPasswordPage.css";
-import { ModalWindowInformation } from "../components/ModalWindows";
+import { ModalWindowInformation } from "../components/ModalWindows.jsx";
 import { useNavigate } from "react-router-dom";
 
 const RecoveryPasswordPage = () => {

@@ -3,7 +3,7 @@ import { useLocation, useNavigate } from "react-router-dom";
 import "./Header.css";
 import companyLogo from "C:/Users/user/diplomnaya-rabota/src/assets/sound-wave.png";
 import userFace from "../assets/bibi.jpg";
-import Dropdown from "./MenuSong";
+import Dropdown from "./MenuSong.jsx";
 
 const Header = ({ onSearchChange, searchQuery }) => {
   const navigate = useNavigate();
