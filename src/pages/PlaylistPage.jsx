@@ -1,7 +1,6 @@
-import React, { useState, useRef, useCallback, useEffect } from "react";
+import React, { useState, useEffect } from "react";
 import "./PlaylistPage.css";
 import Songs from "../components/Songs";
-import coverPlaylist from "../assets/login.jpg";
 import Dropdown from "../components/MenuSong";
 import coverSong from "../assets/party.webp";
 import coverSong2 from "../assets/login.jpg";

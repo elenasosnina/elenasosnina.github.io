@@ -2,7 +2,6 @@ import React, { useState, useEffect } from "react";
 import "./AlbumPage.css";
 import Dropdown from "../components/MenuSong";
 import Songs from "../components/Songs";
-import covercover from "../assets/login.jpg";
 import coverSong from "../assets/party.webp";
 import coverSong2 from "../assets/login.jpg";
 import audioCover from "../assets/Justin Bieber - All Around The World.mp3";
